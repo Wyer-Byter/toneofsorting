@@ -186,19 +186,41 @@ function partition(aa, type, left, right) {
   var p = pivot(aa, type, left, right);
   swap(aa, p, right);
 
-  p = left;
-  for (var i = left; i < right; i++) {
-    if (test(aa, i, right) < 0) {
-      if (i != p) {
-        swap(aa, i, p);
-      }
-      p += 1
+  // p = left;
+  // for (var i = left; i < right; i++) {
+  //   if (test(aa, i, right) < 0) {
+  //     if (i != p) {
+  //       swap(aa, i, p);
+  //     }
+  //     p += 1
+  //   }
+  // }
+
+  var i = left - 1;
+  p = right;
+
+  while (true)
+  {
+    do {
+      i += 1;
+    }      
+    while (test(aa, i, right) < 0) ;
+
+    do {
+      p -= 1;
     }
+    while (test(aa, p, right) >= 0 && i < p);
+
+    if (i >= p) {
+     break;
+    }
+
+    swap(aa, i, p);
   }
 
-  swap(aa, right, p);
+  swap(aa, right, i);
 
-  return p;
+  return i;
 }
 
 function quickSort(aa, type, left, right) {

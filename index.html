@@ -4,30 +4,30 @@
     <meta name="description" content="Tone of Sorting allows you to interactivly visualize how sorting algorithms work with sound">
 
     <link rel="stylesheet" href="screen.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107714021-1"></script>
-    <script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107714021-1"></script> -->
+    <!-- <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-107714021-1');
-    </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </script> -->
+    <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "ca-pub-3538270718430385",
         enable_page_level_ads: true
       });
-    </script>
+    </script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <main id="content" class="content">
     <section id="configuration" class="">
-    <p>
+    <!-- <p>
     <a class="github-button" href="https://github.com/caspervonb/toneofsorting" data-size="large" data-show-count="true" aria-label="Star caspervonb/toneofsorting on GitHub">Star</a>
     
     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="caspervonb" data-hashtags="programming" data-related="caspervonb" data-show-count="true">Tweet</a>
-    </p>
+    </p> -->
 
       <p>
       <label for='#algorithm'>Algorithm</label>
@@ -70,25 +70,38 @@
 
       <p>
       <label for='#delay'>Delay</label>
-      <input id="delay" type="range" value="200" min="1" max="1000">
+      <input id="delay" type="range" value="0" min="0" max="1000">
       </p>
 
-      <p>
-      <label for='#volume'>Volume</label>
-      <input id="volume" type="range" value="25" min="0" max="100">
-      </p>
+      <!-- <p> -->
+      <!-- <label for='#volume'>Volume</label> -->
+      <!-- <input id="volume" type="range" value="25" min="0" max="100"> -->
+      <!-- </p> -->
 
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle adslot_1"
      style="display:block"
      data-ad-client="ca-pub-3538270718430385"
      data-ad-slot="4651002865"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
       <p>
       <input id="sort" type="submit" value="Sort">
+      </p>
+
+      <p>
+        <label for="#test1">Test X</label>
+        <input id="test1" disabled>
+        <label for="#test2">Test Y</label>
+        <input id="test2" disabled>
+      </p>
+      <p>
+        <label for="#swap1">Swap X</label>
+        <input id="swap1" disabled>
+        <label for="#swap2">Swap Y</label>
+        <input id="swap2" disabled>
       </p>
     </section>
 
@@ -96,37 +109,49 @@
       <output id="visualization">
       </output>
     </section>
+    <!-- <section>
+      <output id="visualization">
+      </output>
+    </section>
+    <section>
+      <output id="visualization">
+      </output>
+    </section>
+    <section>
+      <output id="visualization">
+      </output>
+    </section> -->
     </main>
 
     <script>
       var queue = null;
       var worker = null;
 
-      if (typeof AudioContext == 'undefined') {
-        AudioContext = webkitAudioContext;
-      }
+      // if (typeof AudioContext == 'undefined') {
+      //   AudioContext = webkitAudioContext;
+      // }
 
-      var audio = new AudioContext();
+      // var audio = new AudioContext();
 
-      var master = audio.createGain();
-      master.gain.setValueAtTime(0.20, audio.currentTime);
-      master.connect(audio.destination);
+      // var master = audio.createGain();
+      // master.gain.setValueAtTime(0.20, audio.currentTime);
+      // master.connect(audio.destination);
 
-      var volume = document.querySelector('#volume');
-      volume.onchange = function() {
-        master.gain.setValueAtTime(Number(this.value) / 100, audio.currentTime);
-      };
+      // var volume = document.querySelector('#volume');
+      // volume.onchange = function() {
+        // master.gain.setValueAtTime(Number(this.value) / 100, audio.currentTime);
+      // };
 
-      var track = audio.createGain();
-      track.gain.setValueAtTime(0, audio.currentTime);
-      track.connect(master);
+      // var track = audio.createGain();
+      // track.gain.setValueAtTime(0, audio.currentTime);
+      // track.connect(master);
 
-      var tone = audio.createOscillator();
+      // var tone = audio.createOscillator();
 
-      tone.type = 'triangle';
-      tone.frequency.value = 440;
-      tone.connect(track);
-      tone.start();
+      // tone.type = 'triangle';
+      // tone.frequency.value = 440;
+      // tone.connect(track);
+      // tone.start();
 
       var algorithm = document.querySelector('#algorithm');
       algorithm.onchange = function() {
@@ -180,8 +205,11 @@
         for (var i = 0; i < array.length; i++) {
           var element = document.createElement('span');
 
+         
+
           var value = array[i];
-          element.dataset.value = value;
+           element.title = value;
+           element.dataset.value = value;
 
           var percent = (value / array.length) * 100;
 
@@ -194,7 +222,8 @@
           }
 
           if (array.length >= 100) {
-            element.style.backgroundColor = 'hsl(' + ((percent / 100) * 360) + ', 85%, 60%)';
+            // element.style.backgroundColor = 'hsl(' + ((percent / 100) * 270 + 135) + ', 85%, 60%)';
+            element.classList.add('hue'+ (((percent / 100) * 360 + 20) % 360 ).toFixed(0));
           }
 
           visualization.appendChild(element);
@@ -239,25 +268,31 @@
               element1.classList.add('test');
               element2.classList.add('test');
 
-              var factor = ((value1 / elements.length) + (value2 / elements.length) / 2);
-              var frequency = 440 + (factor * 440);
+              document.getElementById("test1").value = value1;
+              document.getElementById("test2").value = value2;
 
-              tone.frequency.linearRampToValueAtTime(frequency, audio.currentTime);
+              // var factor = ((value1 / elements.length) + (value2 / elements.length) / 2);
+              // var frequency = 440 + (factor * 440);
 
-              track.gain.cancelScheduledValues(audio.currentTime);
-              track.gain.linearRampToValueAtTime(0.75, audio.currentTime);
-              track.gain.linearRampToValueAtTime(0, audio.currentTime + delay);
+              // tone.frequency.linearRampToValueAtTime(frequency, audio.currentTime);
+
+              // track.gain.cancelScheduledValues(audio.currentTime);
+              // track.gain.linearRampToValueAtTime(0.75, audio.currentTime);
+              // track.gain.linearRampToValueAtTime(0, audio.currentTime + delay);
             }
 
             if (event.data[0] == 'swap') {
-              var factor = ((value1 / elements.length) + (value2 / elements.length) / 2);
-              var frequency = 440 - (factor * 440);
+              // var factor = ((value1 / elements.length) + (value2 / elements.length) / 2);
+              // var frequency = 440 - (factor * 440);
 
-              tone.frequency.linearRampToValueAtTime(frequency, audio.currentTime);
+              // tone.frequency.linearRampToValueAtTime(frequency, audio.currentTime);
 
-              track.gain.cancelScheduledValues(audio.currentTime);
-              track.gain.linearRampToValueAtTime(1, audio.currentTime);
-              track.gain.linearRampToValueAtTime(0, audio.currentTime + delay);
+              // track.gain.cancelScheduledValues(audio.currentTime);
+              // track.gain.linearRampToValueAtTime(1, audio.currentTime);
+              // track.gain.linearRampToValueAtTime(0, audio.currentTime + delay);
+
+              document.getElementById("swap1").value = value1;
+              document.getElementById("swap2").value = value2;
 
               var temp = document.createElement('span');
               element1.parentNode.insertBefore(temp, element1);
@@ -276,8 +311,8 @@
               element2.style.transform = 'translate(' + (distance * -1) + 'px)';
             }
           } else {
-            track.gain.cancelScheduledValues(0);
-            track.gain.linearRampToValueAtTime(0, audio.currentTime);
+            // track.gain.cancelScheduledValues(0);
+            // track.gain.linearRampToValueAtTime(0, audio.currentTime);
           }
 
           then = now;
@@ -288,6 +323,6 @@
     </script>
     
     <script async defer src="//buttons.github.io/buttons.js"></script>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
   </body>
 </html>
