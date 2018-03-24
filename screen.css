@@ -89,6 +89,728 @@ output span.bar {
   align-self: flex-end;
 }
 
+output span.hue0 { background-color: hsl(0, 85%, 60%); }
+
+output span.hue1 { background-color: hsl(1, 85%, 60%); }
+
+output span.hue2 { background-color: hsl(2, 85%, 60%); }
+
+output span.hue3 { background-color: hsl(3, 85%, 60%); }
+
+output span.hue4 { background-color: hsl(4, 85%, 60%); }
+
+output span.hue5 { background-color: hsl(5, 85%, 60%); }
+
+output span.hue6 { background-color: hsl(6, 85%, 60%); }
+
+output span.hue7 { background-color: hsl(7, 85%, 60%); }
+
+output span.hue8 { background-color: hsl(8, 85%, 60%); }
+
+output span.hue9 { background-color: hsl(9, 85%, 60%); }
+
+output span.hue10 { background-color: hsl(10, 85%, 60%); }
+
+output span.hue11 { background-color: hsl(11, 85%, 60%); }
+
+output span.hue12 { background-color: hsl(12, 85%, 60%); }
+
+output span.hue13 { background-color: hsl(13, 85%, 60%); }
+
+output span.hue14 { background-color: hsl(14, 85%, 60%); }
+
+output span.hue15 { background-color: hsl(15, 85%, 60%); }
+
+output span.hue16 { background-color: hsl(16, 85%, 60%); }
+
+output span.hue17 { background-color: hsl(17, 85%, 60%); }
+
+output span.hue18 { background-color: hsl(18, 85%, 60%); }
+
+output span.hue19 { background-color: hsl(19, 85%, 60%); }
+
+output span.hue20 { background-color: hsl(20, 85%, 60%); }
+
+output span.hue21 { background-color: hsl(21, 85%, 60%); }
+
+output span.hue22 { background-color: hsl(22, 85%, 60%); }
+
+output span.hue23 { background-color: hsl(23, 85%, 60%); }
+
+output span.hue24 { background-color: hsl(24, 85%, 60%); }
+
+output span.hue25 { background-color: hsl(25, 85%, 60%); }
+
+output span.hue26 { background-color: hsl(26, 85%, 60%); }
+
+output span.hue27 { background-color: hsl(27, 85%, 60%); }
+
+output span.hue28 { background-color: hsl(28, 85%, 60%); }
+
+output span.hue29 { background-color: hsl(29, 85%, 60%); }
+
+output span.hue30 { background-color: hsl(30, 85%, 60%); }
+
+output span.hue31 { background-color: hsl(31, 85%, 60%); }
+
+output span.hue32 { background-color: hsl(32, 85%, 60%); }
+
+output span.hue33 { background-color: hsl(33, 85%, 60%); }
+
+output span.hue34 { background-color: hsl(34, 85%, 60%); }
+
+output span.hue35 { background-color: hsl(35, 85%, 60%); }
+
+output span.hue36 { background-color: hsl(36, 85%, 60%); }
+
+output span.hue37 { background-color: hsl(37, 85%, 60%); }
+
+output span.hue38 { background-color: hsl(38, 85%, 60%); }
+
+output span.hue39 { background-color: hsl(39, 85%, 60%); }
+
+output span.hue40 { background-color: hsl(40, 85%, 60%); }
+
+output span.hue41 { background-color: hsl(41, 85%, 60%); }
+
+output span.hue42 { background-color: hsl(42, 85%, 60%); }
+
+output span.hue43 { background-color: hsl(43, 85%, 60%); }
+
+output span.hue44 { background-color: hsl(44, 85%, 60%); }
+
+output span.hue45 { background-color: hsl(45, 85%, 60%); }
+
+output span.hue46 { background-color: hsl(46, 85%, 60%); }
+
+output span.hue47 { background-color: hsl(47, 85%, 60%); }
+
+output span.hue48 { background-color: hsl(48, 85%, 60%); }
+
+output span.hue49 { background-color: hsl(49, 85%, 60%); }
+
+output span.hue50 { background-color: hsl(50, 85%, 60%); }
+
+output span.hue51 { background-color: hsl(51, 85%, 60%); }
+
+output span.hue52 { background-color: hsl(52, 85%, 60%); }
+
+output span.hue53 { background-color: hsl(53, 85%, 60%); }
+
+output span.hue54 { background-color: hsl(54, 85%, 60%); }
+
+output span.hue55 { background-color: hsl(55, 85%, 60%); }
+
+output span.hue56 { background-color: hsl(56, 85%, 60%); }
+
+output span.hue57 { background-color: hsl(57, 85%, 60%); }
+
+output span.hue58 { background-color: hsl(58, 85%, 60%); }
+
+output span.hue59 { background-color: hsl(59, 85%, 60%); }
+
+output span.hue60 { background-color: hsl(60, 85%, 60%); }
+
+output span.hue61 { background-color: hsl(61, 85%, 60%); }
+
+output span.hue62 { background-color: hsl(62, 85%, 60%); }
+
+output span.hue63 { background-color: hsl(63, 85%, 60%); }
+
+output span.hue64 { background-color: hsl(64, 85%, 60%); }
+
+output span.hue65 { background-color: hsl(65, 85%, 60%); }
+
+output span.hue66 { background-color: hsl(66, 85%, 60%); }
+
+output span.hue67 { background-color: hsl(67, 85%, 60%); }
+
+output span.hue68 { background-color: hsl(68, 85%, 60%); }
+
+output span.hue69 { background-color: hsl(69, 85%, 60%); }
+
+output span.hue70 { background-color: hsl(70, 85%, 60%); }
+
+output span.hue71 { background-color: hsl(71, 85%, 60%); }
+
+output span.hue72 { background-color: hsl(72, 85%, 60%); }
+
+output span.hue73 { background-color: hsl(73, 85%, 60%); }
+
+output span.hue74 { background-color: hsl(74, 85%, 60%); }
+
+output span.hue75 { background-color: hsl(75, 85%, 60%); }
+
+output span.hue76 { background-color: hsl(76, 85%, 60%); }
+
+output span.hue77 { background-color: hsl(77, 85%, 60%); }
+
+output span.hue78 { background-color: hsl(78, 85%, 60%); }
+
+output span.hue79 { background-color: hsl(79, 85%, 60%); }
+
+output span.hue80 { background-color: hsl(80, 85%, 60%); }
+
+output span.hue81 { background-color: hsl(81, 85%, 60%); }
+
+output span.hue82 { background-color: hsl(82, 85%, 60%); }
+
+output span.hue83 { background-color: hsl(83, 85%, 60%); }
+
+output span.hue84 { background-color: hsl(84, 85%, 60%); }
+
+output span.hue85 { background-color: hsl(85, 85%, 60%); }
+
+output span.hue86 { background-color: hsl(86, 85%, 60%); }
+
+output span.hue87 { background-color: hsl(87, 85%, 60%); }
+
+output span.hue88 { background-color: hsl(88, 85%, 60%); }
+
+output span.hue89 { background-color: hsl(89, 85%, 60%); }
+
+output span.hue90 { background-color: hsl(90, 85%, 60%); }
+
+output span.hue91 { background-color: hsl(91, 85%, 60%); }
+
+output span.hue92 { background-color: hsl(92, 85%, 60%); }
+
+output span.hue93 { background-color: hsl(93, 85%, 60%); }
+
+output span.hue94 { background-color: hsl(94, 85%, 60%); }
+
+output span.hue95 { background-color: hsl(95, 85%, 60%); }
+
+output span.hue96 { background-color: hsl(96, 85%, 60%); }
+
+output span.hue97 { background-color: hsl(97, 85%, 60%); }
+
+output span.hue98 { background-color: hsl(98, 85%, 60%); }
+
+output span.hue99 { background-color: hsl(99, 85%, 60%); }
+
+output span.hue100 { background-color: hsl(100, 85%, 60%); }
+
+output span.hue101 { background-color: hsl(101, 85%, 60%); }
+
+output span.hue102 { background-color: hsl(102, 85%, 60%); }
+
+output span.hue103 { background-color: hsl(103, 85%, 60%); }
+
+output span.hue104 { background-color: hsl(104, 85%, 60%); }
+
+output span.hue105 { background-color: hsl(105, 85%, 60%); }
+
+output span.hue106 { background-color: hsl(106, 85%, 60%); }
+
+output span.hue107 { background-color: hsl(107, 85%, 60%); }
+
+output span.hue108 { background-color: hsl(108, 85%, 60%); }
+
+output span.hue109 { background-color: hsl(109, 85%, 60%); }
+
+output span.hue110 { background-color: hsl(110, 85%, 60%); }
+
+output span.hue111 { background-color: hsl(111, 85%, 60%); }
+
+output span.hue112 { background-color: hsl(112, 85%, 60%); }
+
+output span.hue113 { background-color: hsl(113, 85%, 60%); }
+
+output span.hue114 { background-color: hsl(114, 85%, 60%); }
+
+output span.hue115 { background-color: hsl(115, 85%, 60%); }
+
+output span.hue116 { background-color: hsl(116, 85%, 60%); }
+
+output span.hue117 { background-color: hsl(117, 85%, 60%); }
+
+output span.hue118 { background-color: hsl(118, 85%, 60%); }
+
+output span.hue119 { background-color: hsl(119, 85%, 60%); }
+
+output span.hue120 { background-color: hsl(120, 85%, 60%); }
+
+output span.hue121 { background-color: hsl(121, 85%, 60%); }
+
+output span.hue122 { background-color: hsl(122, 85%, 60%); }
+
+output span.hue123 { background-color: hsl(123, 85%, 60%); }
+
+output span.hue124 { background-color: hsl(124, 85%, 60%); }
+
+output span.hue125 { background-color: hsl(125, 85%, 60%); }
+
+output span.hue126 { background-color: hsl(126, 85%, 60%); }
+
+output span.hue127 { background-color: hsl(127, 85%, 60%); }
+
+output span.hue128 { background-color: hsl(128, 85%, 60%); }
+
+output span.hue129 { background-color: hsl(129, 85%, 60%); }
+
+output span.hue130 { background-color: hsl(130, 85%, 60%); }
+
+output span.hue131 { background-color: hsl(131, 85%, 60%); }
+
+output span.hue132 { background-color: hsl(132, 85%, 60%); }
+
+output span.hue133 { background-color: hsl(133, 85%, 60%); }
+
+output span.hue134 { background-color: hsl(134, 85%, 60%); }
+
+output span.hue135 { background-color: hsl(135, 85%, 60%); }
+
+output span.hue136 { background-color: hsl(136, 85%, 60%); }
+
+output span.hue137 { background-color: hsl(137, 85%, 60%); }
+
+output span.hue138 { background-color: hsl(138, 85%, 60%); }
+
+output span.hue139 { background-color: hsl(139, 85%, 60%); }
+
+output span.hue140 { background-color: hsl(140, 85%, 60%); }
+
+output span.hue141 { background-color: hsl(141, 85%, 60%); }
+
+output span.hue142 { background-color: hsl(142, 85%, 60%); }
+
+output span.hue143 { background-color: hsl(143, 85%, 60%); }
+
+output span.hue144 { background-color: hsl(144, 85%, 60%); }
+
+output span.hue145 { background-color: hsl(145, 85%, 60%); }
+
+output span.hue146 { background-color: hsl(146, 85%, 60%); }
+
+output span.hue147 { background-color: hsl(147, 85%, 60%); }
+
+output span.hue148 { background-color: hsl(148, 85%, 60%); }
+
+output span.hue149 { background-color: hsl(149, 85%, 60%); }
+
+output span.hue150 { background-color: hsl(150, 85%, 60%); }
+
+output span.hue151 { background-color: hsl(151, 85%, 60%); }
+
+output span.hue152 { background-color: hsl(152, 85%, 60%); }
+
+output span.hue153 { background-color: hsl(153, 85%, 60%); }
+
+output span.hue154 { background-color: hsl(154, 85%, 60%); }
+
+output span.hue155 { background-color: hsl(155, 85%, 60%); }
+
+output span.hue156 { background-color: hsl(156, 85%, 60%); }
+
+output span.hue157 { background-color: hsl(157, 85%, 60%); }
+
+output span.hue158 { background-color: hsl(158, 85%, 60%); }
+
+output span.hue159 { background-color: hsl(159, 85%, 60%); }
+
+output span.hue160 { background-color: hsl(160, 85%, 60%); }
+
+output span.hue161 { background-color: hsl(161, 85%, 60%); }
+
+output span.hue162 { background-color: hsl(162, 85%, 60%); }
+
+output span.hue163 { background-color: hsl(163, 85%, 60%); }
+
+output span.hue164 { background-color: hsl(164, 85%, 60%); }
+
+output span.hue165 { background-color: hsl(165, 85%, 60%); }
+
+output span.hue166 { background-color: hsl(166, 85%, 60%); }
+
+output span.hue167 { background-color: hsl(167, 85%, 60%); }
+
+output span.hue168 { background-color: hsl(168, 85%, 60%); }
+
+output span.hue169 { background-color: hsl(169, 85%, 60%); }
+
+output span.hue170 { background-color: hsl(170, 85%, 60%); }
+
+output span.hue171 { background-color: hsl(171, 85%, 60%); }
+
+output span.hue172 { background-color: hsl(172, 85%, 60%); }
+
+output span.hue173 { background-color: hsl(173, 85%, 60%); }
+
+output span.hue174 { background-color: hsl(174, 85%, 60%); }
+
+output span.hue175 { background-color: hsl(175, 85%, 60%); }
+
+output span.hue176 { background-color: hsl(176, 85%, 60%); }
+
+output span.hue177 { background-color: hsl(177, 85%, 60%); }
+
+output span.hue178 { background-color: hsl(178, 85%, 60%); }
+
+output span.hue179 { background-color: hsl(179, 85%, 60%); }
+
+output span.hue180 { background-color: hsl(180, 85%, 60%); }
+
+output span.hue181 { background-color: hsl(181, 85%, 60%); }
+
+output span.hue182 { background-color: hsl(182, 85%, 60%); }
+
+output span.hue183 { background-color: hsl(183, 85%, 60%); }
+
+output span.hue184 { background-color: hsl(184, 85%, 60%); }
+
+output span.hue185 { background-color: hsl(185, 85%, 60%); }
+
+output span.hue186 { background-color: hsl(186, 85%, 60%); }
+
+output span.hue187 { background-color: hsl(187, 85%, 60%); }
+
+output span.hue188 { background-color: hsl(188, 85%, 60%); }
+
+output span.hue189 { background-color: hsl(189, 85%, 60%); }
+
+output span.hue190 { background-color: hsl(190, 85%, 60%); }
+
+output span.hue191 { background-color: hsl(191, 85%, 60%); }
+
+output span.hue192 { background-color: hsl(192, 85%, 60%); }
+
+output span.hue193 { background-color: hsl(193, 85%, 60%); }
+
+output span.hue194 { background-color: hsl(194, 85%, 60%); }
+
+output span.hue195 { background-color: hsl(195, 85%, 60%); }
+
+output span.hue196 { background-color: hsl(196, 85%, 60%); }
+
+output span.hue197 { background-color: hsl(197, 85%, 60%); }
+
+output span.hue198 { background-color: hsl(198, 85%, 60%); }
+
+output span.hue199 { background-color: hsl(199, 85%, 60%); }
+
+output span.hue200 { background-color: hsl(200, 85%, 60%); }
+
+output span.hue201 { background-color: hsl(201, 85%, 60%); }
+
+output span.hue202 { background-color: hsl(202, 85%, 60%); }
+
+output span.hue203 { background-color: hsl(203, 85%, 60%); }
+
+output span.hue204 { background-color: hsl(204, 85%, 60%); }
+
+output span.hue205 { background-color: hsl(205, 85%, 60%); }
+
+output span.hue206 { background-color: hsl(206, 85%, 60%); }
+
+output span.hue207 { background-color: hsl(207, 85%, 60%); }
+
+output span.hue208 { background-color: hsl(208, 85%, 60%); }
+
+output span.hue209 { background-color: hsl(209, 85%, 60%); }
+
+output span.hue210 { background-color: hsl(210, 85%, 60%); }
+
+output span.hue211 { background-color: hsl(211, 85%, 60%); }
+
+output span.hue212 { background-color: hsl(212, 85%, 60%); }
+
+output span.hue213 { background-color: hsl(213, 85%, 60%); }
+
+output span.hue214 { background-color: hsl(214, 85%, 60%); }
+
+output span.hue215 { background-color: hsl(215, 85%, 60%); }
+
+output span.hue216 { background-color: hsl(216, 85%, 60%); }
+
+output span.hue217 { background-color: hsl(217, 85%, 60%); }
+
+output span.hue218 { background-color: hsl(218, 85%, 60%); }
+
+output span.hue219 { background-color: hsl(219, 85%, 60%); }
+
+output span.hue220 { background-color: hsl(220, 85%, 60%); }
+
+output span.hue221 { background-color: hsl(221, 85%, 60%); }
+
+output span.hue222 { background-color: hsl(222, 85%, 60%); }
+
+output span.hue223 { background-color: hsl(223, 85%, 60%); }
+
+output span.hue224 { background-color: hsl(224, 85%, 60%); }
+
+output span.hue225 { background-color: hsl(225, 85%, 60%); }
+
+output span.hue226 { background-color: hsl(226, 85%, 60%); }
+
+output span.hue227 { background-color: hsl(227, 85%, 60%); }
+
+output span.hue228 { background-color: hsl(228, 85%, 60%); }
+
+output span.hue229 { background-color: hsl(229, 85%, 60%); }
+
+output span.hue230 { background-color: hsl(230, 85%, 60%); }
+
+output span.hue231 { background-color: hsl(231, 85%, 60%); }
+
+output span.hue232 { background-color: hsl(232, 85%, 60%); }
+
+output span.hue233 { background-color: hsl(233, 85%, 60%); }
+
+output span.hue234 { background-color: hsl(234, 85%, 60%); }
+
+output span.hue235 { background-color: hsl(235, 85%, 60%); }
+
+output span.hue236 { background-color: hsl(236, 85%, 60%); }
+
+output span.hue237 { background-color: hsl(237, 85%, 60%); }
+
+output span.hue238 { background-color: hsl(238, 85%, 60%); }
+
+output span.hue239 { background-color: hsl(239, 85%, 60%); }
+
+output span.hue240 { background-color: hsl(240, 85%, 60%); }
+
+output span.hue241 { background-color: hsl(241, 85%, 60%); }
+
+output span.hue242 { background-color: hsl(242, 85%, 60%); }
+
+output span.hue243 { background-color: hsl(243, 85%, 60%); }
+
+output span.hue244 { background-color: hsl(244, 85%, 60%); }
+
+output span.hue245 { background-color: hsl(245, 85%, 60%); }
+
+output span.hue246 { background-color: hsl(246, 85%, 60%); }
+
+output span.hue247 { background-color: hsl(247, 85%, 60%); }
+
+output span.hue248 { background-color: hsl(248, 85%, 60%); }
+
+output span.hue249 { background-color: hsl(249, 85%, 60%); }
+
+output span.hue250 { background-color: hsl(250, 85%, 60%); }
+
+output span.hue251 { background-color: hsl(251, 85%, 60%); }
+
+output span.hue252 { background-color: hsl(252, 85%, 60%); }
+
+output span.hue253 { background-color: hsl(253, 85%, 60%); }
+
+output span.hue254 { background-color: hsl(254, 85%, 60%); }
+
+output span.hue255 { background-color: hsl(255, 85%, 60%); }
+
+output span.hue256 { background-color: hsl(256, 85%, 60%); }
+
+output span.hue257 { background-color: hsl(257, 85%, 60%); }
+
+output span.hue258 { background-color: hsl(258, 85%, 60%); }
+
+output span.hue259 { background-color: hsl(259, 85%, 60%); }
+
+output span.hue260 { background-color: hsl(260, 85%, 60%); }
+
+output span.hue261 { background-color: hsl(261, 85%, 60%); }
+
+output span.hue262 { background-color: hsl(262, 85%, 60%); }
+
+output span.hue263 { background-color: hsl(263, 85%, 60%); }
+
+output span.hue264 { background-color: hsl(264, 85%, 60%); }
+
+output span.hue265 { background-color: hsl(265, 85%, 60%); }
+
+output span.hue266 { background-color: hsl(266, 85%, 60%); }
+
+output span.hue267 { background-color: hsl(267, 85%, 60%); }
+
+output span.hue268 { background-color: hsl(268, 85%, 60%); }
+
+output span.hue269 { background-color: hsl(269, 85%, 60%); }
+
+output span.hue270 { background-color: hsl(270, 85%, 60%); }
+
+output span.hue271 { background-color: hsl(271, 85%, 60%); }
+
+output span.hue272 { background-color: hsl(272, 85%, 60%); }
+
+output span.hue273 { background-color: hsl(273, 85%, 60%); }
+
+output span.hue274 { background-color: hsl(274, 85%, 60%); }
+
+output span.hue275 { background-color: hsl(275, 85%, 60%); }
+
+output span.hue276 { background-color: hsl(276, 85%, 60%); }
+
+output span.hue277 { background-color: hsl(277, 85%, 60%); }
+
+output span.hue278 { background-color: hsl(278, 85%, 60%); }
+
+output span.hue279 { background-color: hsl(279, 85%, 60%); }
+
+output span.hue280 { background-color: hsl(280, 85%, 60%); }
+
+output span.hue281 { background-color: hsl(281, 85%, 60%); }
+
+output span.hue282 { background-color: hsl(282, 85%, 60%); }
+
+output span.hue283 { background-color: hsl(283, 85%, 60%); }
+
+output span.hue284 { background-color: hsl(284, 85%, 60%); }
+
+output span.hue285 { background-color: hsl(285, 85%, 60%); }
+
+output span.hue286 { background-color: hsl(286, 85%, 60%); }
+
+output span.hue287 { background-color: hsl(287, 85%, 60%); }
+
+output span.hue288 { background-color: hsl(288, 85%, 60%); }
+
+output span.hue289 { background-color: hsl(289, 85%, 60%); }
+
+output span.hue290 { background-color: hsl(290, 85%, 60%); }
+
+output span.hue291 { background-color: hsl(291, 85%, 60%); }
+
+output span.hue292 { background-color: hsl(292, 85%, 60%); }
+
+output span.hue293 { background-color: hsl(293, 85%, 60%); }
+
+output span.hue294 { background-color: hsl(294, 85%, 60%); }
+
+output span.hue295 { background-color: hsl(295, 85%, 60%); }
+
+output span.hue296 { background-color: hsl(296, 85%, 60%); }
+
+output span.hue297 { background-color: hsl(297, 85%, 60%); }
+
+output span.hue298 { background-color: hsl(298, 85%, 60%); }
+
+output span.hue299 { background-color: hsl(299, 85%, 60%); }
+
+output span.hue300 { background-color: hsl(300, 85%, 60%); }
+
+output span.hue301 { background-color: hsl(301, 85%, 60%); }
+
+output span.hue302 { background-color: hsl(302, 85%, 60%); }
+
+output span.hue303 { background-color: hsl(303, 85%, 60%); }
+
+output span.hue304 { background-color: hsl(304, 85%, 60%); }
+
+output span.hue305 { background-color: hsl(305, 85%, 60%); }
+
+output span.hue306 { background-color: hsl(306, 85%, 60%); }
+
+output span.hue307 { background-color: hsl(307, 85%, 60%); }
+
+output span.hue308 { background-color: hsl(308, 85%, 60%); }
+
+output span.hue309 { background-color: hsl(309, 85%, 60%); }
+
+output span.hue310 { background-color: hsl(310, 85%, 60%); }
+
+output span.hue311 { background-color: hsl(311, 85%, 60%); }
+
+output span.hue312 { background-color: hsl(312, 85%, 60%); }
+
+output span.hue313 { background-color: hsl(313, 85%, 60%); }
+
+output span.hue314 { background-color: hsl(314, 85%, 60%); }
+
+output span.hue315 { background-color: hsl(315, 85%, 60%); }
+
+output span.hue316 { background-color: hsl(316, 85%, 60%); }
+
+output span.hue317 { background-color: hsl(317, 85%, 60%); }
+
+output span.hue318 { background-color: hsl(318, 85%, 60%); }
+
+output span.hue319 { background-color: hsl(319, 85%, 60%); }
+
+output span.hue320 { background-color: hsl(320, 85%, 60%); }
+
+output span.hue321 { background-color: hsl(321, 85%, 60%); }
+
+output span.hue322 { background-color: hsl(322, 85%, 60%); }
+
+output span.hue323 { background-color: hsl(323, 85%, 60%); }
+
+output span.hue324 { background-color: hsl(324, 85%, 60%); }
+
+output span.hue325 { background-color: hsl(325, 85%, 60%); }
+
+output span.hue326 { background-color: hsl(326, 85%, 60%); }
+
+output span.hue327 { background-color: hsl(327, 85%, 60%); }
+
+output span.hue328 { background-color: hsl(328, 85%, 60%); }
+
+output span.hue329 { background-color: hsl(329, 85%, 60%); }
+
+output span.hue330 { background-color: hsl(330, 85%, 60%); }
+
+output span.hue331 { background-color: hsl(331, 85%, 60%); }
+
+output span.hue332 { background-color: hsl(332, 85%, 60%); }
+
+output span.hue333 { background-color: hsl(333, 85%, 60%); }
+
+output span.hue334 { background-color: hsl(334, 85%, 60%); }
+
+output span.hue335 { background-color: hsl(335, 85%, 60%); }
+
+output span.hue336 { background-color: hsl(336, 85%, 60%); }
+
+output span.hue337 { background-color: hsl(337, 85%, 60%); }
+
+output span.hue338 { background-color: hsl(338, 85%, 60%); }
+
+output span.hue339 { background-color: hsl(339, 85%, 60%); }
+
+output span.hue340 { background-color: hsl(340, 85%, 60%); }
+
+output span.hue341 { background-color: hsl(341, 85%, 60%); }
+
+output span.hue342 { background-color: hsl(342, 85%, 60%); }
+
+output span.hue343 { background-color: hsl(343, 85%, 60%); }
+
+output span.hue344 { background-color: hsl(344, 85%, 60%); }
+
+output span.hue345 { background-color: hsl(345, 85%, 60%); }
+
+output span.hue346 { background-color: hsl(346, 85%, 60%); }
+
+output span.hue347 { background-color: hsl(347, 85%, 60%); }
+
+output span.hue348 { background-color: hsl(348, 85%, 60%); }
+
+output span.hue349 { background-color: hsl(349, 85%, 60%); }
+
+output span.hue350 { background-color: hsl(350, 85%, 60%); }
+
+output span.hue351 { background-color: hsl(351, 85%, 60%); }
+
+output span.hue352 { background-color: hsl(352, 85%, 60%); }
+
+output span.hue353 { background-color: hsl(353, 85%, 60%); }
+
+output span.hue354 { background-color: hsl(354, 85%, 60%); }
+
+output span.hue355 { background-color: hsl(355, 85%, 60%); }
+
+output span.hue356 { background-color: hsl(356, 85%, 60%); }
+
+output span.hue357 { background-color: hsl(357, 85%, 60%); }
+
+output span.hue358 { background-color: hsl(358, 85%, 60%); }
+
+output span.hue359 { background-color: hsl(359, 85%, 60%); }
+
+output span.hue360 { background-color: hsl(360, 85%, 60%); }
+
 output span.test {
   background-color: #e74c3c;
 }
