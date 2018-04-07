@@ -74,6 +74,11 @@
       </p>
 
       <p>
+        <label for="#queuedepth">Events in Queue</label>
+        <input id="queuedepth" disabled />
+      </p>
+
+      <p>
         <label for="#test1">Test X</label>
         <input id="test1" disabled />
         <label for="#test2">Test Y</label>
@@ -226,6 +231,7 @@
             elements[i].classList.remove('swap');
           }
 
+          document.getElementById("queuedepth").value = (queue || []).length;
           var event = (queue || []).shift();
           if (event) {
             var element1 = elements[event.data[1]];
