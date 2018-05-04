@@ -76,6 +76,8 @@
       <p>
         <label for="#queuedepth">Events in Queue</label>
         <input id="queuedepth" disabled />
+        <label for="#queuehigh">Highest Events in Queue</label>
+        <input id="queuehigh" disabled />
       </p>
 
       <p>
@@ -146,6 +148,8 @@
         document.getElementById("swapnumber").value = swapCount;
         document.getElementById("testnumber").value = testCount;
         document.getElementById("loopnumber").value = loopCount;
+        document.getElementById("queuedepth").value = 0;
+        document.getElementById("queuehigh").value = 0; 
 
         queue = new Array();
         worker = new Worker('sort.js');
@@ -231,7 +235,11 @@
             elements[i].classList.remove('swap');
           }
 
-          document.getElementById("queuedepth").value = (queue || []).length;
+          var queueValue = (queue || []).length
+          document.getElementById("queuedepth").value = queueValue;
+          if (queueValue > document.getElementById("queuehigh").value) {
+            document.getElementById("queuehigh").value = queueValue;            
+          }
           var event = (queue || []).shift();
           if (event) {
             var element1 = elements[event.data[1]];
