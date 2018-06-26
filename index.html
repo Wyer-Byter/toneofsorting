@@ -46,21 +46,29 @@
       </p>
 
       <p>
-      <label for='#shuffle'>Shuffle</label>
-      <select id='shuffle'>
-        <option value='random'>Random</option>
-        <option value='ascending'>Ascending</option>
-        <option value='descending'>Descending</option>
-      </select>
+        <label for='#distribution'>Value Distribution</label>
+        <select id='distribution'>
+          <option value='linear'>Linear</option>
+          <option value='random'>Random</option>
+        </select>
+      </p>
+      
+      <p>
+        <label for='#shuffle'>Shuffle</label>
+        <select id='shuffle'>
+          <option value='random'>Random</option>
+          <option value='ascending'>Ascending</option>
+          <option value='descending'>Descending</option>
+        </select>
+      </p>
+      
+      <p>
+        <label for='#delay'>Delay</label>
+        <input id="delay" type="range" value="0" min="0" max="1000">
       </p>
 
       <p>
-      <label for='#delay'>Delay</label>
-      <input id="delay" type="range" value="0" min="0" max="1000">
-      </p>
-
-      <p>
-      <input id="sort" type="submit" value="Sort">
+        <input id="sort" type="submit" value="Sort">
       </p>
 
       <!-- <p>
@@ -149,7 +157,13 @@
         document.getElementById("testnumber").value = testCount;
         document.getElementById("loopnumber").value = loopCount;
         document.getElementById("queuedepth").value = 0;
-        document.getElementById("queuehigh").value = 0; 
+        document.getElementById("queuehigh").value = 0;
+        document.getElementById("test1").value = 0; 
+        document.getElementById("test2").value = 0; 
+        document.getElementById("testnumber").value = 0; 
+        document.getElementById("swap1").value = 0; 
+        document.getElementById("swap2").value = 0; 
+        document.getElementById("swapnumber").value = 0; 
 
         queue = new Array();
         worker = new Worker('sort.js');
@@ -160,12 +174,23 @@
         var algorithm = document.querySelector('#algorithm');
         var pivot = document.querySelector('#pivot');
         var shuffle = document.querySelector('#shuffle');
+        var distribution = document.querySelector('#distribution');
         var size = document.querySelector('#size');
 
         var length = Number(size.value);
         var array = new Array(length);
-        for (var i = 0; i < array.length; i++) {
-          array[i] = i + 1;
+        switch (distribution.value) {
+          // creates the values to sort min is 0, max is array.length
+          case 'linear':
+            for (var i = 0; i < array.length; i++) {
+              array[i] = i + 1;
+            }
+            break;
+          case 'random':
+            for (var i = 0; i < array.length; i++) {
+              array[i] = Math.floor(Math.random() * (array.length + 1));
+            }
+            break;
         }
 
         array.sort(function(a, b) {
@@ -188,7 +213,7 @@
          
 
           var value = array[i];
-           element.title = value;
+           element.title = value + "," + i;
            element.dataset.value = value;
 
           var percent = (value / array.length) * 100;
