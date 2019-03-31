@@ -1,11 +1,11 @@
 function test(array, i, j) {
-  self.postMessage(['test', i, j]);
+  postMessage(['test', i, j]);
 
   return array[i] - array[j];
 }
 
 function swap(array, i, j) {
-  self.postMessage(['swap', i, j]);
+  postMessage(['swap', i, j]);
 
   var temp = array[i];
   array[i] = array[j];
@@ -13,7 +13,7 @@ function swap(array, i, j) {
 }
 
 function loop() {
-  self.postMessage(['loop',1,1]);
+  postMessage(['loop',1,1]);
 }
 
 function bubbleSort(a) {
@@ -255,7 +255,7 @@ function quickSort(aa, type, left, right) {
   quickSort(aa, type, p + 1, right);
 }
 
-self.onmessage = function(event) {
+onmessage = function(event) {
   var sort = eval(event.data[0]);
   sort(event.data[1], event.data[2]);
 
